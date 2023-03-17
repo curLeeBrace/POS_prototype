@@ -81,33 +81,12 @@ public class Billing
         price_label.setText(price);
     }
     
-//    public static void AddSome(JCheckBox check_box, JLabel total_label, JSpinner add_quantity)       
-//    {
-//        double price = 10;
-//        int qty = Integer.parseInt(add_quantity.getValue().toString());
-//        
-//        
-//        
-//        //price * Double.parseDouble(add_quantity.getValue().toString());
-//        
-//        if(check_box.isSelected())
-//        {
-//            total += price * qty;
-//        } else
-//        {
-//            total -= 10 * qty;
-//        }
-//        
-//        total_label.setText(Double.toString(total));
-//        
-//        
-//    }
-  
-    public static void coumputeTotal()
+    public static void AddsOn()       
     {
-     
+       
+        
     }
-    
+  
 
     public static void addOrder(JTable table_order, Object[] datas, JSpinner qty_spinner)
     {
@@ -119,7 +98,6 @@ public class Billing
       {
            tb_model.addRow(datas);
       }
-     
       
     }
     
